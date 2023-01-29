@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Poster Design
+description: some posters for club events
+img: assets/img/project_resource/poster_head.jpg
 importance: 3
 category: fun
 ---
@@ -13,22 +13,16 @@ Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_resource/ipp_poster.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_resource/CareerFair.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/project_resource/TradeWar.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
