@@ -4,7 +4,7 @@ title: Painting
 description:
 img: assets/img/project_resource/paint_head.jpg
 importance: 4
-category: fun
+category: activity
 ---
 
 

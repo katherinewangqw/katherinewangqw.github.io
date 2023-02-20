@@ -4,7 +4,7 @@ title: Club Events
 description: 
 img: assets/img/project_resource/club_head.jpeg
 importance: 3
-category: fun
+category: activity
 ---
 
 During my junior year at Emory University, I was the president of [Sino-Emory Newsletter](https://sinoemory.wordpress.com/). Through my undergarad, I helped organize and print newsletters on a monthly basis.

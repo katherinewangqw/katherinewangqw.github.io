@@ -4,7 +4,7 @@ title: Visual Design
 description: 
 img: assets/img/project_resource/globe.gif
 importance: 3
-category: fun
+category: activity
 ---
 
 Creaing visual representation is one of my hobbies. Here are some poster designs and animation I created:

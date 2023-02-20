@@ -1,4 +1,3 @@
-
     <header>
 
       <!-- Nav Bar -->
@@ -6,9 +5,9 @@
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-            <!-- {%- if site.title == "blank" -%}
+            {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
+                <span class>{{- site.first_name -}}&nbsp;</span>
               {%- endif -%}
               {%- if site.middle_name -%}
                 {{- site.middle_name -}}&nbsp;
@@ -18,14 +17,42 @@
               {%- endif -%}
             {%- else -%}
               {{- site.title -}}
-            {%- endif -%} -->
+            {%- endif -%}
           </a>
-          {%- elsif site.enable_navbar_social -%}
+          {%- elsif page.title == "About" -%}
           <!-- Social Icons -->
           <div class="navbar-brand social">
             {% include social.html %}
           </div>
           {% endif %}
+
+
+        <!-- Nav Bar -->
+        <!-- <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+          <div class="container"> -->
+        
+          <!-- Social Icons -->
+          <!-- <div class="row ml-1 ml-sm-0">
+            <span class="contact-icon text-center">
+              <div class="navbar-brand social">
+                {% include social.html %}
+              </div>
+            </span>
+          </div> -->
+
+        <!-- Nav Bar -->
+        <!-- <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+          <div class="container">
+            {% if page.title != "About" %}
+            <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+            {% if site.title == "blank" %}<span>{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+            </a>
+            {% elsif site.enable_navbar_social %} -->
+              <!-- Social Icons -->
+              <!-- <div class="navbar-brand social">
+                {% include social.html %}
+              </div>
+            {% endif %} -->
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -108,12 +135,12 @@
           </div>
         </div>
       </nav>
-{% if site.enable_progressbar %}
+<!-- {% if site.enable_progressbar %} -->
       <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
+      <!-- <progress id="progress" value="0">
         <div class="progress-container">
           <span class="progress-bar"></span>
         </div>
       </progress>
-{%- endif %}
+{%- endif %} -->
     </header>

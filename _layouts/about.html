@@ -27,9 +27,9 @@ layout: default
               path=profile_image_path 
               class=profile_image_class
               alt=page.profile.image -%}
-              <div class="navbar-brand social" style="display: flex; justify-content: space-around">
+              <!-- <div class="navbar-brand social" style="display: flex; justify-content: space-around">
                 {% include social.html %}
-              </div>
+              </div> -->
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
@@ -56,7 +56,7 @@ layout: default
           {%- endif %}
 
           <!-- Social -->
-          {%- if page.social %}
+          <!-- {%- if page.social %}
             <div class="social">
               <div class="contact-icons">
                 {% include social.html %}
@@ -67,7 +67,10 @@ layout: default
               </div>
               
             </div>
-          {%- endif %}
+          {%- endif %} -->
+          <div class="social">
+            <div class="contact_note">{{ site.contact_note }}</div>
+          </div>
         </article>
 
 </div>
