@@ -11,7 +11,7 @@ After making updates, run:
 $ bundle exec jekyll serve
 ```
 
-To deploy to GitHub Pages:
+To deploy to GitHub Pages, run the following code after git add. and commit:
 ```bash
 $ bin/deploy --user
 ```
