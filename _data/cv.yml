@@ -3,7 +3,7 @@
   contents:
     - title: Master of Business Analytics
       institution: MIT Sloan, Operations Research Center, Cambridge, BOS
-      year: 2023
+      year: 2022 - 2023
       description:
         - Member of MIT Sloan Product Management Club, Data Analytics Club, Asian Dance Team
  
@@ -11,14 +11,20 @@
       institution: Emory University, Atlanta, GA
       year: 2018 - 2022
       description:
-        - Double Major Economics
+        - Double Major Economics, Highest Honor (summa cum laude)
         - Dean's List 2019, Omicron Delta Epsilon - Economics Honor Society
+        - President of <a href="https://sinoemory.wordpress.com/about/">Sino-Emory Newsletter</a>
         - TA for Intro to Calculus in FA19
-        - Technical Consultant at Computer Center at Cox Hall
+        - Technical Consultant of <a href="https://ats.emory.edu/sdl/computing-center/index.html">Computing Center at Cox Hall</a>
 
 - title: Experience
   type: time_table
   contents:
+    - title: Alab Team Member
+      institution: MIT SLOAN | COMCAST
+      year: Feb 2023 - Present
+      description: Build upsell recommendation engine  (Python, Reinforcement Learning)
+
     - title: Alab Team Member
       institution: MIT SLOAN | SAP
       year: Fall 2022
