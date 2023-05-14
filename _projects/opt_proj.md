@@ -24,5 +24,11 @@ We follow the notation in [Reyes et al. (2017)](https://www.sciencedirect.com/sc
 
 The constraints are listed in the graph above, and more detailed information can be found in the origional paper. Poster for the project can be found below:
 
-<object width="100%" height="500" data="http://katherinewangqw.github.io/assets/pdf/opt_proj.pdf" type="application/pdf"> alt : <a href="http://katherinewangqw.github.io/assets/pdf/opt_proj.pdf">Download the poster here.</a>
+<!-- <object width="100%" height="500" data="http://katherinewangqw.github.io/assets/pdf/opt_proj.pdf" type="application/pdf"> alt : <a href="http://katherinewangqw.github.io/assets/pdf/opt_proj.pdf">Download the poster here.</a>
+</object> -->
+
+
+<object width="100%" height="500" data="https://github.com/katherinewangqw/katherinewangqw.github.io/blob/master/assets/pdf/opt_proj.pdf" type="application/pdf"> alt : <a href="http://katherinewangqw.github.io/assets/pdf/opt_proj.pdf">Download the poster here.</a>
 </object>
+
+
