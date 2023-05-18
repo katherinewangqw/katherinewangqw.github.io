@@ -24,21 +24,24 @@ I am passionate in using machine learning techniques to provide insights for dec
 
 <br/>
 #### 🌕 **featured project**<br/>
+<blockquote style="margin-bottom: 30px;">
+    <h3>
+        <a href="https://katherinewangqw.github.io/projects/cv_project/">Product Matching with Contrastive Learning</a>
+    </h3>
+    <div class="post-meta">apply supervised contrastive learning and CLIP to enhance product matching and recommendation in e-commerce</div>
+</blockquote>
 <blockquote>
+    <h3>
+        <a href="https://katherinewangqw.github.io/projects/rl_project/">Portfolio Management with RL</a>
+    </h3>
+    <div class="post-meta">optimize cryptocurrency portfolio management by leveraging reinforcement learning</div>
+</blockquote>
+<!-- <blockquote>
     <h3>
         <a href="https://katherinewangqw.github.io/projects/quantile_regression/">Predict GDP growth under economic boom & bust</a>
     </h3>
     <div class="post-meta">a quantile regression + random forest method</div>
-</blockquote>
-
-<!-- <blockquote>
-    <h3>
-        <a href="https://katherinewangqw.github.io/projects/painting/">Visual Design</a>
-    </h3>
-    <div class="post-meta">some art works</div>
 </blockquote> -->
-
-
 
 <style>
     blockquote {
