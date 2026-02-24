@@ -2,49 +2,45 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle: Machine Learning Engineer
 
 profile:
-  align: left
   image: profile.jpg
-  image_circular: false # crops the image to make it circular
-  address:
+  image_circular: true
 
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false
+selected_papers: false
+social: true
 ---
 
-<!-- **Currently**{: style="color: #990000; opacity: 0.80;" }, -->
-Currently, I am a [Master of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics#tour-welcome) student at MIT Sloan in conjunction with Operations Research Center.
+I am a Machine Learning Engineer at [PayPal](https://www.paypal.com/), working on fraud risk detection, compliance, and agentic AI. Previously, I was a Data Scientist at [TikTok](https://www.tiktok.com/), where I drove ads measurement through large-scale experimentation and causal inference.
 
-I obtained my Bachelor's degree in Applied Mathematics & Statistics from [Emory University](https://www.emory.edu/home/index.html), double majored in Economics. I was fortunate to be supervised by Prof. [Seunghwa Rho](https://seunghwarho.github.io/) at the [Department of Quantitative Theory and Methods](https://quantitative.emory.edu/) during my undergraduate studies.
+I hold a [Master of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics#tour-welcome) from MIT Sloan (Operations Research Center) and a B.S. in Applied Mathematics & Statistics from [Emory University](https://www.emory.edu/home/index.html).
 
-I am passionate in using machine learning techniques to provide insights for decision-making processes, and the [projects](/projects) page has information about my past work and activities.
+I'm interested in building production ML systems and AI-powered products.
 
-<br/>
-#### 🌕 **featured project**<br/>
-<blockquote style="margin-bottom: 30px;">
-    <h3>
-        <a href="https://katherinewangqw.github.io/projects/cv_project/">Product Matching with Contrastive Learning</a>
-    </h3>
-    <div class="post-meta">apply supervised contrastive learning and CLIP to enhance product matching and recommendation in e-commerce</div>
-</blockquote>
-<blockquote>
-    <h3>
-        <a href="https://katherinewangqw.github.io/projects/rl_project/">Portfolio Management with RL</a>
-    </h3>
-    <div class="post-meta">optimize cryptocurrency portfolio management by leveraging reinforcement learning</div>
-</blockquote>
-<!-- <blockquote>
-    <h3>
-        <a href="https://katherinewangqw.github.io/projects/quantile_regression/">Predict GDP growth under economic boom & bust</a>
-    </h3>
-    <div class="post-meta">a quantile regression + random forest method</div>
-</blockquote> -->
+---
 
-<style>
-    blockquote {
-        font-size: 5px;
-    }
-</style>
+#### Experience
+
+- **2025 -- present** · Machine Learning Engineer, PayPal -- fraud risk detection, compliance, agentic AI
+- **2023 -- 2025** · Data Scientist, TikTok -- ads measurement, A/B testing, causal inference
+- **2023** · Data Scientist Intern, MIT Sloan x Comcast -- upsell recommendation with RL
+- **2022** · Analytics Lab, MIT Sloan x SAP -- NLP on JIRA backlog for effort estimation
+
+#### Education
+
+- **2022 -- 2023** · Master of Business Analytics, MIT Sloan / Operations Research Center
+- **2018 -- 2022** · B.S. Applied Mathematics & Statistics; Economics, Emory University (Summa Cum Laude)
+
+---
+
+#### Featured Projects
+
+- **[Product Matching with Contrastive Learning](/projects/cv_project/)** -- supervised contrastive learning and CLIP for product matching in e-commerce
+
+- **[Portfolio Management with RL](/projects/rl_project/)** -- reinforcement learning for cryptocurrency portfolio optimization
+
+- **[Predict GDP Growth](/projects/quantile_regression/)** -- quantile regression + random forest for economic forecasting
+
+[View all projects &rarr;](/projects/)
