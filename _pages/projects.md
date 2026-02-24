@@ -2,9 +2,10 @@
 layout: page
 title: Projects
 permalink: /Projects/
-description: Things I've built and explored.
+description:
 nav: true
 nav_order: 2
+hide_title: true
 ---
 
 <!-- Collect all unique tags -->

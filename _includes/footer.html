@@ -1,7 +1,22 @@
     <footer>
       <div class="container">
-        &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}
-        {%- if site.github_username %} &middot; <a href="https://github.com/{{ site.github_username }}">GitHub</a>{%- endif %}
-        {%- if site.linkedin_username %} &middot; <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>{%- endif %}
+        <div class="footer-icons">
+          {%- if site.email %}
+          <a href="mailto:{{ site.email }}" title="Email"><i class="fas fa-envelope"></i></a>
+          {%- endif %}
+          {%- if site.github_username %}
+          <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+          {%- endif %}
+          {%- if site.linkedin_username %}
+          <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          {%- endif %}
+          {%- if site.instagram_id %}
+          <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fab fa-instagram"></i></a>
+          {%- endif %}
+        </div>
+        {%- if site.footer_text and site.footer_text != "" %}
+        <p class="footer-text">{{ site.footer_text }}</p>
+        {%- endif %}
+        <p class="footer-copy">&copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}</p>
       </div>
     </footer>
