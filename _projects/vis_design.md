@@ -1,10 +1,15 @@
 ---
 layout: page
 title: Visual Design
-description: 
+description: Poster designs and animations created with Photoshop, Canva, and After Effects
 img: assets/img/project_resource/globe.gif
 importance: 3
 category: activity
+tags: [design]
+date: 2021-01-01
+github:
+demo:
+pdf:
 ---
 
 Creaing visual representation is one of my hobbies. Here are some poster designs and animation I created:

@@ -1,16 +1,35 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: Projects
+permalink: /Projects/
 description: Things I've built and explored.
 nav: true
 nav_order: 2
 ---
 
+<!-- Collect all unique tags -->
+{% assign all_tags = "" | split: "" %}
+{% assign sorted_projects = site.projects | sort: "date" | reverse %}
+{% for project in sorted_projects %}
+  {% for tag in project.tags %}
+    {% unless all_tags contains tag %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+<!-- Tag filter bar -->
+<div class="project-tags-filter">
+  <button class="tag-btn active" data-tag="all">all</button>
+  {% for tag in all_tags %}
+  <button class="tag-btn" data-tag="{{ tag }}">{{ tag }}</button>
+  {% endfor %}
+</div>
+
+<!-- Project list -->
 <div class="projects-list">
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
   {%- for project in sorted_projects -%}
-    <div class="project-item">
+    <div class="project-item" data-tags="{{ project.tags | join: ' ' }}">
       <h3>
         {%- if project.redirect -%}
           <a href="{{ project.redirect }}">{{ project.title }}</a>
@@ -21,9 +40,22 @@ nav_order: 2
       {%- if project.description %}
       <p class="project-description">{{ project.description }}</p>
       {%- endif %}
-      <div class="project-meta">
-        {%- if project.category %}<span class="project-category">{{ project.category }}</span>{%- endif %}
-      </div>
+      <p class="project-meta">
+        {%- if project.date -%}
+        <span class="project-date">{{ project.date | date: "%d %b %Y" }}</span>
+        {%- endif -%}
+        {%- if project.github and project.github != "" %}
+        &nbsp;&bull;&nbsp;<a href="{{ project.github }}" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+        {%- endif %}
+        {%- if project.pdf and project.pdf != "" %}
+        &nbsp;&bull;&nbsp;<a href="{{ project.pdf | relative_url }}" class="project-link"><i class="fas fa-file-pdf"></i> PDF</a>
+        {%- endif %}
+        {%- if project.demo and project.demo != "" %}
+        &nbsp;&bull;&nbsp;<a href="{{ project.demo }}" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+        {%- endif %}
+      </p>
     </div>
   {%- endfor -%}
 </div>
+
+<script src="{{ '/assets/js/project-tags.js' | relative_url }}" defer></script>

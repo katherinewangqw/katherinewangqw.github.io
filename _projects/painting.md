@@ -1,10 +1,15 @@
 ---
 layout: page
 title: Painting
-description:
+description: Acrylic and watercolor artwork
 img: assets/img/project_resource/paint_head.jpg
 importance: 4
 category: activity
+tags: [activity]
+date: 2020-06-01
+github:
+demo:
+pdf:
 ---
 
 

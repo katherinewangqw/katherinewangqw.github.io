@@ -1,10 +1,15 @@
 ---
 layout: page
-title: portfolio management
-description: optimize cryptocurrency portfolio management by leveraging reinforcement learning
+title: Portfolio Management
+description: Optimize cryptocurrency portfolio management by leveraging reinforcement learning
 img: assets/img/project_resource/rl_proj_header.png
 importance: 1
 category: academic
+tags: [ml, reinforcement-learning]
+date: 2023-05-01
+github:
+demo:
+pdf: /assets/pdf/RL_project_report.pdf
 ---
 
 ```

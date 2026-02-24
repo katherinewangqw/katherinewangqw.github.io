@@ -1,10 +1,15 @@
 ---
 layout: page
 title: Club Events
-description: 
+description: Organized newsletters, member meetings, and cultural events as president of Sino-Emory Newsletter
 img: assets/img/project_resource/club_head.jpeg
 importance: 3
 category: activity
+tags: [activity]
+date: 2021-05-01
+github:
+demo:
+pdf:
 ---
 
 During my junior year at Emory University, I was the president of [Sino-Emory Newsletter](https://sinoemory.wordpress.com/). Through my undergarad, I helped organize and print newsletters on a monthly basis.

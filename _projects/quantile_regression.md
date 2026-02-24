@@ -1,10 +1,15 @@
 ---
 layout: page
-title: Predict GDP growth
-description: predict at economic boom & bust, a quantile regression + random forest method
+title: Predict GDP Growth
+description: Predict at economic boom & bust using a quantile regression + random forest method
 img: assets/img/project_resource/quantile_reg/quantile_reg_head.png
 importance: 1
 category: academic
+tags: [ml, statistics]
+date: 2022-05-01
+github:
+demo: https://etd.library.emory.edu/concern/etds/n009w3620?locale=en
+pdf: /assets/pdf/Honors_Thesis_Presentation.pdf
 ---
 
 ```

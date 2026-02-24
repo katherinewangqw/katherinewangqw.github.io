@@ -1,10 +1,15 @@
 ---
 layout: page
 title: Optimize Delivery Routing
-description: Optimization project - revisit Roaming Delivery Location problem
-img: 
+description: Revisit the Roaming Delivery Location problem with optimized vehicle routing
+img:
 importance: 3
 category: academic
+tags: [optimization]
+date: 2022-12-01
+github:
+demo:
+pdf: /assets/pdf/opt_proj.pdf
 ---
 
 ```
