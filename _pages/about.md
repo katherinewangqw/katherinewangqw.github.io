@@ -17,7 +17,7 @@ selected_papers: false
 social: false
 ---
 
-I am a Machine Learning Engineer at PayPal, working on fraud risk detection, compliance, and agentic AI. Previously, I was a Data Scientist at TikTok, where I drove ads measurement through large-scale experimentation and causal inference.
+I am currently a Machine Learning Engineer at PayPal, working on fraud risk detection and Multi-Agentic System. Previously, I worked at TikTok as a Data Scientist, where I drove ads measurement through large-scale experimentation and causal inference.
 
 I hold a [Master of Business Analytics](https://mitsloan.mit.edu/master-of-business-analytics#tour-welcome) from MIT and a B.S. in Applied Mathematics & Statistics from Emory University.
 
@@ -27,8 +27,8 @@ I'm interested in building production ML systems and AI-powered products.
 
 #### Experience
 
-- **2025 -- now** : Machine Learning Engineer @ PayPal (Fraud Detection, Agentic AI)
-- **2023 -- 2025**: Data Scientist @ TikTok (Ads Measurement, AB Testing)
+- **2025 -- now** : <img src="/assets/img/paypal_logo.png" alt="PayPal" height="18" style="vertical-align:middle; margin-right:4px;">Machine Learning Engineer @ PayPal (Fraud Detection, Agentic AI)
+- **2023 -- 2025**: <img src="/assets/img/tiktok_logo.png" alt="TikTok" height="18" style="vertical-align:middle; margin-right:4px;">Data Scientist @ TikTok (Ads Measurement, AB Testing)
 - **2022 -- 2023**: Master of Business Analytics, Massachusetts Institute of Technology
   - Capstone @ Comcast (Reinforcement Learning)
   - Analytics Lab @ SAP (NLP)
